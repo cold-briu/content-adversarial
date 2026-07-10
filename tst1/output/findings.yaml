@@ -1,0 +1,24 @@
+findings:
+  - title: "A randomised controlled trial of dietary improvement for adults with major depression (the 'SMILES' trial)"
+    link: "https://doi.org/10.1186/s12916-017-0791-y"
+    breakthroughs_and_insights:
+      - "In a 12-week randomised controlled trial of adults with moderate to severe depression, adjunctive dietary intervention using a modified Mediterranean diet ('ModiMedDiet') produced significantly greater improvement in depression symptoms (MADRS score) than a social support control condition (p < 0.001, Cohen's d = -1.16)."
+      - "Clinical remission (MADRS score < 10) was achieved by 32.3% of participants in the dietary support group compared to 8.0% in the social support control group (number needed to treat = 4.1)."
+      - "Symptom improvement correlated significantly with dietary adherence: every 10% increase in adherence to the ModiMedDiet was associated with a 2.2-point improvement in MADRS depression score."
+      - "Therapeutic improvements in depressive symptoms occurred independently of changes in body weight (BMI), physical activity, or traditional cardiovascular biomarkers."
+    caveats:
+      - "Small sample size (67 enrolled, 56 completed: 31 in dietary support and 25 in control), limiting statistical power for secondary outcomes and subgroup analyses."
+      - "Participants could not be blinded to group allocation, and recruitment materials explicitly mentioned a diet program for depression, introducing potential expectation bias."
+      - "Differential completion rates between groups (94% in dietary support vs. 73.5% in social support control), although sensitivity analyses supported robustness under missing-data assumptions."
+      - "Study eligibility required a pre-existing poor-quality diet at screening, which may limit generalizability to depressed individuals already consuming a healthy diet."
+
+  - title: "The neuroactive potential of the human gut microbiota in quality of life and depression"
+    link: "https://doi.org/10.1038/s41564-018-0337-x"
+    breakthroughs_and_insights:
+      - "In a large population-level metagenomic study of the Flemish Gut Flora Project (n = 1,054) validated in the independent Dutch LifeLines DEEP cohort (n = 1,063), specific butyrate-producing bacterial genera—notably Faecalibacterium and Coprococcus—were consistently associated with higher indicators of mental quality of life."
+      - "The genera Coprococcus and Dialister were significantly depleted in individuals with depression, and this depletion remained statistically significant even after controlling for the confounding effects of antidepressant medications."
+      - "Using a metabolic pathway analysis framework ('gut–brain modules'), microbial synthesis potential of the dopamine metabolite 3,4-dihydroxyphenylacetic acid (DOPAC) correlated positively with mental quality of life, demonstrating a microbial link to neuroactive metabolite pathways."
+    caveats:
+      - "Observational cross-sectional design identifies associations between microbial taxa and mental health indicators but cannot establish causal directionality or determine whether microbiome alterations precede or result from depression."
+      - "Metagenomic pathway prediction ('neuroactive potential') evaluates metabolic capacity encoded in microbial DNA, but does not directly measure circulating metabolite concentrations across the blood-brain barrier or in central nervous system tissue."
+      - "Despite controlling for antidepressant use, gut microbiome composition is sensitive to external factors such as diet, medication history, and intestinal transit time, which can introduce residual confounding."

@@ -1,0 +1,26 @@
+changelog:
+  - date: "2026-07-10"
+    article: "A randomised controlled trial of dietary improvement for adults with major depression (the 'SMILES' trial)"
+    action: "Researched primary findings for the SMILES trial relevant to topic.json and synthesized strictly factual breakthroughs, insights, and caveats into output/findings.yaml."
+    files_created_or_modified:
+      - "./output/findings.yaml"
+      - "./agent todo.md"
+      - "./changelog.yaml"
+    blocking_findings: null
+
+  - date: "2026-07-10"
+    article: "The neuroactive potential of the human gut microbiota in quality of life and depression"
+    action: "Researched primary findings for Valles-Colomer et al. (2019) relevant to topic.json and synthesized strictly factual breakthroughs, insights, and caveats into output/findings.yaml."
+    files_created_or_modified:
+      - "./output/findings.yaml"
+      - "./agent todo.md"
+      - "./changelog.yaml"
+    blocking_findings: null
+
+  - date: "2026-07-10"
+    article: null
+    action: "Specified exact agent output directory and file location (./output/findings.yaml) along with explicit YAML schema structure and data types in agent todo.md."
+    files_created_or_modified:
+      - "./agent todo.md"
+      - "./changelog.yaml"
+    blocking_findings: null
