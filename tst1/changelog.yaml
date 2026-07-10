@@ -51,3 +51,28 @@ changelog:
       - "./agent todo.md"
       - "./changelog.yaml"
     blocking_findings: null
+
+  - date: "2026-07-10"
+    article: null
+    action: "Created agent.writer.md with instructions to extract 5 cool facts from output/findings.yaml, craft short-form video scripts (120-145 words) adhering to tone/style/structural requirements with 3 hooks each, use factual phrasing ('according to some studies'), check briefing.md for alignment, output results to a YAML file in ./output/, and log actions to changelog.yaml."
+    files_created_or_modified:
+      - "./agent.writer.md"
+      - "./changelog.yaml"
+    blocking_findings: null
+
+  - date: "2026-07-10"
+    article: null
+    action: "Updated agent.writer.md to explicitly instruct the agent to always check hook guide.md before crafting hooks and generating short-form video scripts."
+    files_created_or_modified:
+      - "./agent.writer.md"
+      - "./changelog.yaml"
+    blocking_findings: null
+
+  - date: "2026-07-10"
+    article: "Gut Microbes and the Brain: Paradigm Shift in Neuroscience"
+    action: "Researched primary findings for Mayer et al. (2014) relevant to topic.json and synthesized strictly factual breakthroughs, insights, and caveats into output/findings.yaml."
+    files_created_or_modified:
+      - "./output/findings.yaml"
+      - "./agent.todo.md"
+      - "./changelog.yaml"
+    blocking_findings: null

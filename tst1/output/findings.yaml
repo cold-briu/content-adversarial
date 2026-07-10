@@ -58,3 +58,14 @@ findings:
       - "As a foundational 2013 narrative review, the primary mechanistic evidence supporting direct causal influences of the microbiome on anxiety- and depressive-like behaviors is derived from preclinical rodent models (e.g., germ-free mice, pathogenic infections, and probiotic administration in animals)."
       - "Human clinical data reviewed at the time were largely observational or preliminary (e.g., questionnaires in small healthy cohorts or individuals with irritable bowel syndrome), highlighting a critical need for standardized, large-scale randomized controlled trials in psychiatric populations."
       - "Translational application is complicated by the complexity and functional redundancy of host microbiota communities, making it challenging to isolate individual microbial taxa or specific metabolic signatures responsible for clinical mood improvements."
+
+  - title: "Gut Microbes and the Brain: Paradigm Shift in Neuroscience"
+    link: "https://doi.org/10.1523/jneurosci.3299-14.2014"
+    breakthroughs_and_insights:
+      - "Outlines a foundational paradigm shift in neuroscience recognizing extensive bidirectional communication between enteric gut microbiota and the central nervous system (CNS) via neural (vagus nerve), neuroendocrine, and neuroimmune signaling pathways."
+      - "Synthesizes experimental evidence from preclinical germ-free and microbial manipulation models demonstrating that gut microbes actively modulate central neurochemistry, neurotransmitter signaling, brain development, and emotional behaviors related to anxiety and mood."
+      - "Identifies that enteric microorganisms influence neuroactive metabolite and signaling pathways, proposing that targeted modulation of the gut microbiome via diet, prebiotics, or probiotics provides a novel therapeutic framework for cognitive and emotional disorders."
+    caveats:
+      - "Foundational mechanistic discoveries were established predominantly in preclinical rodent and germ-free models, requiring caution when translating findings directly to complex human neurobiology."
+      - "Human observational data linking gut microbiome composition to neuropsychiatric phenotypes cannot resolve causation versus correlation or determine whether microbial dysbiosis is a cause or consequence of altered CNS regulation."
+      - "Clinical heterogeneity among human psychiatric and neurodevelopmental conditions indicates that no single gut-brain mechanism accounts for all disease phenotypes, highlighting the need for large-scale longitudinal human population and neuroimaging studies."

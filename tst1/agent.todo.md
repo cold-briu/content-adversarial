@@ -39,7 +39,7 @@ For each article listed in the checklist below:
 - [x] Mind-altering microorganisms: the impact of the gut microbiota on brain and behaviour
 - [x] Psychobiotics: A Novel Class of Psychotropic
 - [x] Gut–brain axis: how the microbiome influences anxiety and depression
-- [ ] Gut Microbes and the Brain: Paradigm Shift in Neuroscience
+- [x] Gut Microbes and the Brain: Paradigm Shift in Neuroscience
 - [ ] Interactions between the microbiota, immune and nervous systems in health and disease
 - [ ] Nutritional psychiatry: the present state of the evidence
 - [ ] Gut microbiota composition in depressive disorder: a systematic review, meta-analysis, and meta-regression
