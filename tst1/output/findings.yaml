@@ -46,3 +46,15 @@ findings:
       - "The psychobiotic classification introduced in 2013 relied primarily on preclinical rodent trials and mechanistic animal models; robust, large-scale randomized placebo-controlled clinical trials in human psychiatric cohorts were still limited at publication."
       - "Although gut bacteria produce mammalian neurotransmitters in the intestinal lumen, central behavioral effects often depend on peripheral vagal or immune signaling rather than direct translocation of bacterial neurotransmitters across the blood-brain barrier."
       - "Strain specificity is critical: therapeutic psychotropic properties are highly specific to individual bacterial strains and dosing regimens, preventing broad generalization across entire bacterial genera or species."
+
+  - title: "Gut–brain axis: how the microbiome influences anxiety and depression"
+    link: "https://doi.org/10.1016/j.tins.2013.01.005"
+    breakthroughs_and_insights:
+      - "Synthesizes foundational evidence demonstrating that commensal intestinal microbiota are essential regulators of central nervous system (CNS) development, stress reactivity, and emotional behavior across the microbiota-gut-brain axis."
+      - "Demonstrates through germ-free animal models that early-life absence of gut microbiota leads to exaggerated hypothalamic-pituitary-adrenal (HPA) axis neuroendocrine stress responses, altered central neurochemistry (including brain-derived neurotrophic factor [BDNF] and NMDA/GABA receptor expression), and compromised immune competence."
+      - "Details multiple bottom-up signaling pathways through which commensal and probiotic bacteria influence central emotional processing, including neural (autonomic nervous system via the vagus nerve), mucosal and systemic neuroimmune signaling (cytokine modulation and low-grade inflammation), and neuroendocrine pathways."
+      - "Highlights that maintaining functional microbial resilience—specifically gut metabolic balance, epithelial barrier integrity, and inflammatory control—provides a therapeutic framework for targeting the gut microbiome to prevent or treat mood disorders characterized by anxiety and depression."
+    caveats:
+      - "As a foundational 2013 narrative review, the primary mechanistic evidence supporting direct causal influences of the microbiome on anxiety- and depressive-like behaviors is derived from preclinical rodent models (e.g., germ-free mice, pathogenic infections, and probiotic administration in animals)."
+      - "Human clinical data reviewed at the time were largely observational or preliminary (e.g., questionnaires in small healthy cohorts or individuals with irritable bowel syndrome), highlighting a critical need for standardized, large-scale randomized controlled trials in psychiatric populations."
+      - "Translational application is complicated by the complexity and functional redundancy of host microbiota communities, making it challenging to isolate individual microbial taxa or specific metabolic signatures responsible for clinical mood improvements."

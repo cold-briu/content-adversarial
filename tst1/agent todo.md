@@ -38,7 +38,7 @@ For each article listed in the checklist below:
 - [x] The neuroactive potential of the human gut microbiota in quality of life and depression
 - [x] Mind-altering microorganisms: the impact of the gut microbiota on brain and behaviour
 - [x] Psychobiotics: A Novel Class of Psychotropic
-- [ ] Gut–brain axis: how the microbiome influences anxiety and depression
+- [x] Gut–brain axis: how the microbiome influences anxiety and depression
 - [ ] Gut Microbes and the Brain: Paradigm Shift in Neuroscience
 - [ ] Interactions between the microbiota, immune and nervous systems in health and disease
 - [ ] Nutritional psychiatry: the present state of the evidence
