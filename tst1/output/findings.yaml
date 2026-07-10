@@ -22,3 +22,15 @@ findings:
       - "Observational cross-sectional design identifies associations between microbial taxa and mental health indicators but cannot establish causal directionality or determine whether microbiome alterations precede or result from depression."
       - "Metagenomic pathway prediction ('neuroactive potential') evaluates metabolic capacity encoded in microbial DNA, but does not directly measure circulating metabolite concentrations across the blood-brain barrier or in central nervous system tissue."
       - "Despite controlling for antidepressant use, gut microbiome composition is sensitive to external factors such as diet, medication history, and intestinal transit time, which can introduce residual confounding."
+
+  - title: "Mind-altering microorganisms: the impact of the gut microbiota on brain and behaviour"
+    link: "https://doi.org/10.1038/nrn3346"
+    breakthroughs_and_insights:
+      - "Establishes a comprehensive framework for the bidirectional communication across the microbiota-gut-brain axis via neural (vagus nerve X), neuroendocrine (hypothalamic-pituitary-adrenal or HPA axis), immune (systemic cytokines), and metabolic (short-chain fatty acids, tryptophan metabolism) signaling pathways."
+      - "Synthesizes preclinical germ-free animal studies demonstrating that the absence of gut microbiota leads to exaggerated HPA axis neuroendocrine stress responses and altered central brain-derived neurotrophic factor (BDNF) and neurotransmitter receptor expression (NMDA, 5-HT1A), showing that normal microbial colonization is critical for healthy CNS stress reactivity."
+      - "Highlights mechanistic evidence that specific commensal bacteria or probiotic administration (e.g., Lactobacillus rhamnosus JB-1) can alter central GABA receptor expression and attenuate anxiety- and depression-like behaviors in rodent models, effects that are abolished following subdiaphragmatic vagotomy."
+      - "Proposes that targeted modulation of gut microbial composition via diet, prebiotics, or psychobiotic live bacteria offers a tractable therapeutic strategy for modifying central neural circuitry and mood regulation."
+    caveats:
+      - "As a foundational 2012 review, the core mechanistic evidence is derived predominantly from preclinical animal models (germ-free mice, pathogenic infections, antibiotic depletion, and animal probiotic trials), which may not directly translate to human neurobiology."
+      - "Clinical human evidence cited at the time was largely observational or correlational, requiring robust randomized controlled trials in humans to confirm whether microbial modulation reliably improves clinical depressive disorders or cognitive symptoms."
+      - "Redundancy and overlap across neural, neuroendocrine, and immune pathways make it challenging to isolate single microbial metabolites or individual causal mechanisms in complex host systems."

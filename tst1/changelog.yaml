@@ -24,3 +24,12 @@ changelog:
       - "./agent todo.md"
       - "./changelog.yaml"
     blocking_findings: null
+
+  - date: "2026-07-10"
+    article: "Mind-altering microorganisms: the impact of the gut microbiota on brain and behaviour"
+    action: "Researched primary findings for Cryan & Dinan (2012) relevant to topic.json and synthesized strictly factual breakthroughs, insights, and caveats into output/findings.yaml."
+    files_created_or_modified:
+      - "./output/findings.yaml"
+      - "./agent todo.md"
+      - "./changelog.yaml"
+    blocking_findings: null

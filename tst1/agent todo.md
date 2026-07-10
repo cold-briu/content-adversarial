@@ -36,7 +36,7 @@ For each article listed in the checklist below:
 
 - [x] A randomised controlled trial of dietary improvement for adults with major depression (the 'SMILES' trial)
 - [x] The neuroactive potential of the human gut microbiota in quality of life and depression
-- [ ] Mind-altering microorganisms: the impact of the gut microbiota on brain and behaviour
+- [x] Mind-altering microorganisms: the impact of the gut microbiota on brain and behaviour
 - [ ] Psychobiotics: A Novel Class of Psychotropic
 - [ ] Gut–brain axis: how the microbiome influences anxiety and depression
 - [ ] Gut Microbes and the Brain: Paradigm Shift in Neuroscience
