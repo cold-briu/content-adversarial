@@ -34,3 +34,15 @@ findings:
       - "As a foundational 2012 review, the core mechanistic evidence is derived predominantly from preclinical animal models (germ-free mice, pathogenic infections, antibiotic depletion, and animal probiotic trials), which may not directly translate to human neurobiology."
       - "Clinical human evidence cited at the time was largely observational or correlational, requiring robust randomized controlled trials in humans to confirm whether microbial modulation reliably improves clinical depressive disorders or cognitive symptoms."
       - "Redundancy and overlap across neural, neuroendocrine, and immune pathways make it challenging to isolate single microbial metabolites or individual causal mechanisms in complex host systems."
+
+  - title: "Psychobiotics: A Novel Class of Psychotropic"
+    link: "https://doi.org/10.1016/j.biopsych.2013.05.001"
+    breakthroughs_and_insights:
+      - "Formally defines a 'psychobiotic' as a live organism that, when ingested in adequate amounts, produces a health benefit in patients suffering from psychiatric illness, establishing specific live bacterial strains as a novel class of psychotropics targeting the brain-gut axis."
+      - "Identifies specific neuroactive capabilities of commensal bacteria: taxa including Lactobacillus and Bifidobacterium synthesize key neurotransmitters such as gamma-aminobutyric acid (GABA) and serotonin, while other species produce norepinephrine and acetylcholine, acting as delivery vehicles for neuroactive signaling."
+      - "Highlights preclinical animal models demonstrating that psychobiotic ingestion attenuates hypothalamic-pituitary-adrenal (HPA) axis hyper-reactivity, reduces systemic pro-inflammatory cytokines, and exerts behavioral antidepressant- and anxiolytic-like effects mediated via vagal nerve and immune pathways."
+      - "Documents early clinical evidence showing that probiotic strains such as Bifidobacterium infantis produce positive psychological and systemic benefits in conditions characterized by gut-brain dysregulation, notably irritable bowel syndrome (IBS) and chronic fatigue symptoms."
+    caveats:
+      - "The psychobiotic classification introduced in 2013 relied primarily on preclinical rodent trials and mechanistic animal models; robust, large-scale randomized placebo-controlled clinical trials in human psychiatric cohorts were still limited at publication."
+      - "Although gut bacteria produce mammalian neurotransmitters in the intestinal lumen, central behavioral effects often depend on peripheral vagal or immune signaling rather than direct translocation of bacterial neurotransmitters across the blood-brain barrier."
+      - "Strain specificity is critical: therapeutic psychotropic properties are highly specific to individual bacterial strains and dosing regimens, preventing broad generalization across entire bacterial genera or species."

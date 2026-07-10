@@ -33,3 +33,12 @@ changelog:
       - "./agent todo.md"
       - "./changelog.yaml"
     blocking_findings: null
+
+  - date: "2026-07-10"
+    article: "Psychobiotics: A Novel Class of Psychotropic"
+    action: "Researched primary findings for Dinan et al. (2013) relevant to topic.json and synthesized strictly factual breakthroughs, insights, and caveats into output/findings.yaml."
+    files_created_or_modified:
+      - "./output/findings.yaml"
+      - "./agent todo.md"
+      - "./changelog.yaml"
+    blocking_findings: null
