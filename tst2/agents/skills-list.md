@@ -8,10 +8,11 @@ This document maps the interactive content creation workflow in [workflow.md](fi
 
 | Agent/Component | Workflow Steps | Primary Inputs / Outputs |
 | :--- | :--- | :--- |
-| **Python CLI Application** | Steps 1, 2, 3, 4, 6, 9 | User inputs, brand guidelines / orchestrates file updates and LLM calls |
+| **Python CLI Application** | Steps 1, 2, 3, 4, 6, 9, 10 | User inputs, brand guidelines / orchestrates file updates and LLM calls |
 | **Content Strategist Agent** | Step 5 | Persona and Brand state / 5 topic ideas |
 | **Scientific Sourcing Agent** | Step 7 | Selected topic / `articles.yaml` (metadata) |
 | **Insights Synthesizer Agent** | Steps 8, 9 | Sourced articles / `findings.yaml`, `facts.yaml` (drafts) |
+| **Scriptwriter Agent** | Step 10 | Selected fact, `findings.yaml`, persona, and brand state / 5 script proposals |
 
 ---
 
@@ -25,6 +26,7 @@ This document maps the interactive content creation workflow in [workflow.md](fi
   * Render topic selection menus and handle choices (Step 6).
   * Trigger LLM calls to the agents.
   * Facilitate interactive review/approval loops for facts (Step 9) and update `facts.yaml`.
+  * Support user selection of a fact or entry of a custom fact, orchestrating the script proposal generation (Step 10).
 
 ### B. Content Strategist Agent (LLM)
 * **Objective:** Generate persona-aligned, brand-compliant, engaging topic ideas.
@@ -44,6 +46,12 @@ This document maps the interactive content creation workflow in [workflow.md](fi
   * **Literature Synthesis:** Extract scientific breakthroughs and study caveats (limitations, sample sizes).
   * **Factual Translation:** Convert dense studies into clear, conversational, and scientifically honest "cool facts" (`findings.yaml` & `facts.yaml`).
 
+### E. Scriptwriter Agent (LLM)
+* **Objective:** Craft distinct, engaging short-form script proposals based on scientific or custom facts while strictly adhering to brand guidelines, tone, user persona, and scientific limitations.
+* **Core Skills:**
+  * **Fact-to-Script Translation:** Adapt scientific or custom facts into engaging narrative structures (hooks, draft copy).
+  * **Brand, Persona & Caveat Integration:** Fully align the script proposals with the brand identity, voice constraints, target user persona, and findings/caveats extracted in `findings.yaml`.
+
 ---
 
 ## 3. Data Interface Schema Reference
@@ -54,3 +62,4 @@ This document maps the interactive content creation workflow in [workflow.md](fi
 - **`resources/articles.yaml`**: List of fetched research articles containing `title`, `link`, `authors`, `year`, and `keywords`.
 - **`resources/findings.yaml`**: In-depth breakdown per article showing `breakthroughs_and_insights` and `caveats` (limitations).
 - **`resources/facts.yaml`**: User-approved list of structured `cool_fact` entries keyed by `id`.
+- **`resources/scripts.yaml`**: List of generated script proposals containing `proposal_id`, `hook`, and `draft_copy`.

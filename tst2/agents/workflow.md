@@ -143,3 +143,21 @@ This document outlines the step-by-step interactive CLI workflow for content cre
     - id: 2
       cool_fact: "Specific gut bacteria — Coprococcus and Dialister — were found depleted in people with depression, even after accounting for antidepressant use, suggesting a direct microbial link to mental health."
   ```
+
+---
+
+### Step 10: Script Proposals Generation
+- **Data Sourcing**: User input (CLI selection of a cool fact or manual input), `resources/findings.yaml`, & CLI session state (`resources/brand.yaml`, `resources/briefing.yaml`, `resources/config.yaml`)
+- **Required Action**: Ask the user to select one of the cool facts from `resources/facts.yaml` or input a new fact by hand. The agent uses the chosen fact, along with scientific context and study caveats from `resources/findings.yaml`, branding guidelines, user persona, and tone information, to craft 5 distinct script proposals.
+- **Resulting Output**: `resources/scripts.yaml`
+- **Prompt Description**: "Using the selected fact: '{selected_fact}', scientific findings and caveats from resources/findings.yaml, user persona from resources/briefing.yaml, brand identity from resources/brand.yaml, and tone/voice guidelines from resources/config.yaml, craft 5 distinct short-form script proposals. Each proposal must feature a hook and draft copy (only text, no storyboard or visual cues), fully aligned with the brand's voice, tone rules, and scientific limitations."
+- **Input Example**:
+  - Choice: Fact ID 1 ("Switching to a Mediterranean-style diet for 12 weeks significantly reduced depression symptoms — and 32% of participants actually went into remission...")
+- **Output Example**:
+  ```yaml
+  scripts:
+    - proposal_id: 1
+      hook: "Eat Mediterranean, Beat depression?"
+      draft_copy: "It sounds too simple: eat Mediterranean, feel better. But a landmark clinical trial proved that 12 weeks on a Mediterranean diet put 32% of depressed patients into full remission. That's real, science-backed healing."
+  ```
+
