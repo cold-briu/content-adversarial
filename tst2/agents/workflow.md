@@ -46,12 +46,31 @@ This document outlines the step-by-step interactive CLI workflow for content cre
 
 ---
 
-### Step 4: Topic Ideas Generation
-- **Data Sourcing**: CLI session state (`pillar`, `tone`, `persona`)
-- **Required Action**: Generate 5 topic ideas with user value matching the persona
+### Step 4: Brand Identity Sourcing
+- **Data Sourcing**: Local database/file (`resources/brand.yaml`) or Brand Asset Database
+- **Required Action**: Pull brand guidelines, including core values, voice, tone guidelines, and content constraints/no-go zones.
+- **Resulting Output**: `resources/brand.yaml` (loaded into memory/session state)
+- **Input Example**: N/A
+- **Output Example**:
+  ```yaml
+  brand_values:
+    - "Evidence-based claims only"
+    - "Empowerment through education"
+  tone_guidelines:
+    voice: "Empathetic, clear, and scientifically authoritative"
+    no_go_zones:
+      - "No diagnostic advice"
+      - "Avoid sensationalist titles"
+  ```
+
+---
+
+### Step 5: Topic Ideas Generation
+- **Data Sourcing**: CLI session state (`pillar`, `tone`, `persona`, `brand_values`, `tone_guidelines`)
+- **Required Action**: Generate 5 topic ideas with user value matching the persona and aligning with the brand values and tone guidelines
 - **Resulting Output**: Displayed list of 5 ideas
-- **Prompt Description**: "Based on the content pillar, tone, and user persona specified in resources/config.yaml and resources/briefing.yaml, generate 5 distinct, high-engagement topic ideas for short-form content. For each idea, provide the topic hook/title and explain its specific value for the user persona."
-- **Input Example**: N/A (State from Steps 1-3)
+- **Prompt Description**: "Based on the content pillar, tone, user persona, and brand guidelines specified in resources/config.yaml, resources/briefing.yaml, and resources/brand.yaml, generate 5 distinct, high-engagement topic ideas for short-form content. For each idea, provide the topic hook/title and explain its specific value for the user persona while strictly adhering to the brand values and tone constraints."
+- **Input Example**: N/A (State from Steps 1-4)
 - **Output Example**:
   ```yaml
   - topic: "Stop normalizing bloating"
@@ -60,7 +79,7 @@ This document outlines the step-by-step interactive CLI workflow for content cre
 
 ---
 
-### Step 5: Topic Selection
+### Step 6: Topic Selection
 - **Data Sourcing**: User input (CLI selection)
 - **Required Action**: Ask user to select one topic
 - **Resulting Output**: CLI session state (`selected_topic`)
@@ -69,7 +88,7 @@ This document outlines the step-by-step interactive CLI workflow for content cre
 
 ---
 
-### Step 6: Scientific Research Sourcing
+### Step 7: Scientific Research Sourcing
 - **Data Sourcing**: Agent research (academic databases / search engines)
 - **Required Action**: Research 3-10 top scientific investigations for the topic and format as YAML
 - **Resulting Output**: `resources/articles.yaml`
@@ -91,12 +110,12 @@ This document outlines the step-by-step interactive CLI workflow for content cre
 
 ---
 
-### Step 7: Article Insights and Caveats Extraction
+### Step 8: Article Insights and Caveats Extraction
 - **Data Sourcing**: Agent research and synthesis from `resources/articles.yaml` and `resources/config.yaml`
 - **Required Action**: Research the primary findings for each article, focusing on data relevant to the selected topic/pillar. Extract breakthroughs/insights and study caveats for each article.
 - **Resulting Output**: `resources/findings.yaml`
 - **Prompt Description**: "Research and analyze the primary findings for each article listed in resources/articles.yaml, focusing on data relevant to the topic described in resources/config.yaml. Output all synthesized results into a findings.yaml file, extracting the breakthroughs_and_insights and study caveats for each article, adhering strictly to the requested YAML schema."
-- **Input Example**: N/A (State from Step 6 & config)
+- **Input Example**: N/A (State from Step 7 & config)
 - **Output Example**:
   ```yaml
   findings:
@@ -110,12 +129,12 @@ This document outlines the step-by-step interactive CLI workflow for content cre
 
 ---
 
-### Step 8: Cool Fact Selection and Approval
+### Step 9: Cool Fact Selection and Approval
 - **Data Sourcing**: Agent synthesis from `resources/findings.yaml` & User input (CLI review)
 - **Required Action**: Identify 5 "cool facts" based on the extracted findings and insights. The user can discard, accept, or request more facts to be generated and appended before moving forward.
 - **Resulting Output**: `resources/facts.yaml`
 - **Prompt Description**: "Based on the findings in resources/findings.yaml, select 5 compelling 'cool facts' suitable for scriptwriting. Present them to the user. Allow the user to accept, discard, or request more facts. Append any requested additions to the list, and output the final approved facts to resources/facts.yaml."
-- **Input Example**: N/A (State from Step 7)
+- **Input Example**: N/A (State from Step 8)
 - **Output Example**:
   ```yaml
   facts:
