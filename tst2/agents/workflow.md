@@ -107,3 +107,20 @@ This document outlines the step-by-step interactive CLI workflow for content cre
       caveats:
         - "Small sample size (67 enrolled, 56 completed: 31 in dietary support and 25 in control), limiting statistical power for secondary outcomes and subgroup analyses."
   ```
+
+---
+
+### Step 8: Cool Fact Selection and Approval
+- **Data Sourcing**: Agent synthesis from `resources/findings.yaml` & User input (CLI review)
+- **Required Action**: Identify 5 "cool facts" based on the extracted findings and insights. The user can discard, accept, or request more facts to be generated and appended before moving forward.
+- **Resulting Output**: `resources/facts.yaml`
+- **Prompt Description**: "Based on the findings in resources/findings.yaml, select 5 compelling 'cool facts' suitable for scriptwriting. Present them to the user. Allow the user to accept, discard, or request more facts. Append any requested additions to the list, and output the final approved facts to resources/facts.yaml."
+- **Input Example**: N/A (State from Step 7)
+- **Output Example**:
+  ```yaml
+  facts:
+    - id: 1
+      cool_fact: "Switching to a Mediterranean-style diet for 12 weeks significantly reduced depression symptoms — and 32% of participants actually went into remission, compared to only 8% in the control group."
+    - id: 2
+      cool_fact: "Specific gut bacteria — Coprococcus and Dialister — were found depleted in people with depression, even after accounting for antidepressant use, suggesting a direct microbial link to mental health."
+  ```
