@@ -161,3 +161,9 @@ This document outlines the step-by-step interactive CLI workflow for content cre
       draft_copy: "It sounds too simple: eat Mediterranean, feel better. But a landmark clinical trial proved that 12 weeks on a Mediterranean diet put 32% of depressed patients into full remission. That's real, science-backed healing."
   ```
 
+11. pick a script
+
+12. add adversarial to fine tune hooks
+
+13. add adversarial to fine tune script and facts
+
